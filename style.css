@@ -12,24 +12,33 @@ body { font-family:Verdana, Arial, sans-serif;
 header { background-color: #869dc7;
          color: #00005D; 
          font-size: 150%; 
-         padding: 20px 40px 20px;
+         padding: 20px 100px 50px 100px;
        }
 
-#tag { padding-right: 20px;
+header h1 { position: relative;
+            padding-top:20px;
+          }
+
+#tag { padding-top: 20px;
 	   font-size: .80em;
 	   font-style: italic;
 	   text-align: center;
 	   color: #00005D;
      }
 
+#logoa { padding-bottom:10px;
+         padding-right:10px;
+         position:relative;
+         float:left;
+       }
+
 h1 { margin-bottom: 0; text-align:center;} 
 	   
-     
 h2 { color: black; 
      font-family: arial, sans-serif;
      font-size: 200%;
    }
-nav { float: left;
+nav { /*float: left;*/
       width: 150px;
       letter-spacing:0.1em;
       font-weight: bold;
